@@ -21,7 +21,7 @@ const ContactMe = () => {
         e.preventDefault();
 
         try {
-            await API.post("/contact", Data);
+            await API.post("/api/contact", Data);
 
             alert("Message Sent Successfully");
 
