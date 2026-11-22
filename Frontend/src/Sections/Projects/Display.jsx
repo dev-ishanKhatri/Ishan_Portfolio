@@ -67,8 +67,8 @@ const Display = () => {
                 Live Demo
               </button>
 
-              <a href="https://github.com/dev-ishanKhatri/Assignment_Management_System.git">
-                <button className="flex-1 border cursor-pointer border-zinc-700 bg-blue-600 hover:border-white text-white py-2 rounded-xl transition font-medium">
+              <a href="https://github.com/dev-ishanKhatri/Assignment_Management_System.git"  className="flex-1 justify-center items-center flex border cursor-pointer border-zinc-700 bg-blue-600 hover:border-white text-white py-2 rounded-xl transition font-medium">
+                <button>
                   GitHub
                 </button>
               </a>
