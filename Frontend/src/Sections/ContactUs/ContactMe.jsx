@@ -37,7 +37,7 @@ const ContactMe = () => {
     }
 
     return (
-        <section className="min-h-screen p-5 bg-[#03112B] overflow-x-hidden md:min-h-screen  md:flex md:justify-center md:items-center
+        <section className="h-screen p-5 bg-[#03112B] flex justify-center items-center md:min-h-screen  md:flex md:justify-center md:items-center
       lg:min-h-screen lg:flex lg:justify-center lg:items-center" id='ContantMe'>
             <div className="w-full max-w-4xl bg-zinc-800 rounded-3xl shadow-2xl overflow-hidden grid md:grid-cols-2 lg:max-w-300">
 

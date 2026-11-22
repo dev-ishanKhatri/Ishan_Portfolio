@@ -182,11 +182,11 @@ const Display = () => {
             {/* Buttons */}
 
             <div className="flex gap-3 pt-3">
-              <button className="flex-1 bg-blue-600 hover:bg-blue-500 text-white py-2 rounded-xl transition font-medium">
+              <button className="flex-1  bg-gray-200 cursor-not-allowed  text-gray-600 py-2 rounded-xl transition font-medium">
                 Live Demo
               </button>
 
-              <button className="flex-1 border border-zinc-700 hover:border-white text-white py-2 rounded-xl transition font-medium">
+              <button className="flex-1 border cursor-pointer border-zinc-700 bg-blue-600 hover:border-white text-white py-2 rounded-xl transition font-medium">
                 GitHub
               </button>
             </div>

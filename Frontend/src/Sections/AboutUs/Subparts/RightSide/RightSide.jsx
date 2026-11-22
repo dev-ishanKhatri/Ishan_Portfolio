@@ -35,7 +35,7 @@ const RightSide = ({ action }) => {
             <h1 className='text-2xl font-bold lg:text-3xl'>{action}</h1>
           </div>
           <div>
-            <p className='leading-6 lg:text-xl lg:leading-10'>Hello Every One, My Name Is Ishan Khatri and I am from Petlad, Where I was completed my 10th and 12th from commerce background, Then I choose BCA in Sardar Patel University as my next step and in the last sem of my batchlor's degree I created a final year project called Online Car Rental System, using C# and .net framwork, Then I complete my Batchlor's degree with Overall 78.9 CGPA, I am Pursuing MCA in Sardar Vallabhbhai Institute of Technology in Gujarat Technical University which is located at Vasad.</p>
+            <p className='leading-6 lg:text-xl lg:leading-10'>Hello Every One, My Name Is Ishan Khatri and I am from Petlad, Where I was completed my 10th and 12th from commerce background, Then I choose BCA in Sardar Patel University as my next step and in the last sem of my batchlor's degree I created a final year project called Online Car Rental System, Then I complete my Batchlor's degree with Overall 78.9 CGPA, I am Pursuing MCA in Sardar Vallabhbhai Institute of Technology in Gujarat Technical University which is located at Vasad.</p>
           </div>
         </div>
 
@@ -47,7 +47,7 @@ const RightSide = ({ action }) => {
           <h1 className='text-3xl font-bold mb-6'>Education</h1>
           {qualification.map((qual) => (
             <div key={qual.id} className=''> <br />
-              <div className='p-5 rounded-lg  hover:bg-blue-800 transition'>
+              <div className='border-blue-600 border-2 p-5 rounded-lg  hover:bg-blue-800 transition'>
                 <div>
                   <h1 className='text-slate-300 text-xl font-semibold'>{qual.class}</h1>
                   <h2 className='text-blue-200'>{qual.school}</h2>
