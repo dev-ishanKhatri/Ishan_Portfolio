@@ -187,7 +187,7 @@ const Display = () => {
               </button>
 
               <button className="flex-1 border cursor-pointer border-zinc-700 bg-blue-600 hover:border-white text-white py-2 rounded-xl transition font-medium">
-                GitHub
+                <a href="https://github.com/dev-ishanKhatri/Assignment_Management_System.git"> GitHub </a>
               </button>
             </div>
           </div>
